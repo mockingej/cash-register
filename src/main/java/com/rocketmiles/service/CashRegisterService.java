@@ -21,7 +21,7 @@ public class CashRegisterService {
         output += cash.getTens() + " ";
         output += cash.getFives() + " ";
         output += cash.getTwos() + " ";
-        output += cash.getOnes() + " ";
+        output += cash.getOnes();
         return output;
     }
 
